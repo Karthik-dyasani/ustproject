@@ -1,0 +1,88 @@
+{
+  "id": "/subscriptions/f40580ee-eab5-47b4-b5b6-efb408e17de8/resourceGroups/rg_karthikproject/providers/Microsoft.Resources/deployments/Microsoft.StorageAccount-20210217160107",
+  "name": "Microsoft.StorageAccount-20210217160107",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/f40580ee-eab5-47b4-b5b6-efb408e17de8/resourcegroups/rg_karthikproject/providers/Microsoft.Storage/storageAccounts/karthikproject",
+    "marketplaceItemId": "Microsoft.StorageAccount",
+    "provisioningHash": "Default"
+  },
+  "properties": {
+    "templateHash": "4856448363020310173",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "karthikproject"
+      },
+      "accountType": {
+        "type": "String",
+        "value": "Standard_RAGRS"
+      },
+      "kind": {
+        "type": "String",
+        "value": "StorageV2"
+      },
+      "accessTier": {
+        "type": "String",
+        "value": "Hot"
+      },
+      "minimumTlsVersion": {
+        "type": "String",
+        "value": "TLS1_2"
+      },
+      "supportsHttpsTrafficOnly": {
+        "type": "Bool",
+        "value": true
+      },
+      "allowBlobPublicAccess": {
+        "type": "Bool",
+        "value": true
+      },
+      "allowSharedKeyAccess": {
+        "type": "Bool",
+        "value": true
+      },
+      "networkAclsBypass": {
+        "type": "String",
+        "value": "AzureServices"
+      },
+      "networkAclsDefaultAction": {
+        "type": "String",
+        "value": "Allow"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-02-17T10:38:45.0649002Z",
+    "duration": "PT33.1829299S",
+    "correlationId": "9dd7790a-0026-499b-8370-5b0435f1337e",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/f40580ee-eab5-47b4-b5b6-efb408e17de8/resourceGroups/rg_karthikproject/providers/Microsoft.Storage/storageAccounts/karthikproject"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}
