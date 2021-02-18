@@ -1,0 +1,18 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://storageproject.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "a4431f4b-c207-4733-9530-34c08a9b2b8d",
+			"subscriptionId": "f40580ee-eab5-47b4-b5b6-efb408e17de8",
+			"resourceGroupName": "rg_karthikproject"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
